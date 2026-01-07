@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
 
-    const whatsappMessage = `Hello MS ANIK TRADERS!%0A%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0A%0AMessage: ${encodeURIComponent(message)}`;
+    const whatsappMessage = `Hello Global Clothwear Bangladesh!%0A%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0A%0AMessage: ${encodeURIComponent(message)}`;
 
     window.open(`https://wa.me/8801888705120?text=${whatsappMessage}`, '_blank');
 
